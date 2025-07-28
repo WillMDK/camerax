@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>30.0</SupportedOSPlatformVersion>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>camerax.Droid</RootNamespace>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<UseMaui>true</UseMaui>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+		<PackageReference Include="Xamarin.AndroidX.Camera.Core" Version="1.4.2.2" />
+		<PackageReference Include="Xamarin.AndroidX.Camera.Lifecycle" Version="1.4.2.2" />
+		<PackageReference Include="Xamarin.AndroidX.Camera.View" Version="1.4.2.2" />
+		<PackageReference Include="Xamarin.AndroidX.Camera.Camera2" Version="1.4.2.2" />
+	</ItemGroup>
+
+	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>portable</DebugType>
+		<OutputPath>bin\Alpha\</OutputPath>
+		<DefineConstants>ALPHA;</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+		<AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+		<AndroidManagedSymbols>true</AndroidManagedSymbols>
+		<RuntimeIdentifiers>android-arm;android-arm64</RuntimeIdentifiers>
+		<AndroidPackageFormat>aab</AndroidPackageFormat>
+		<EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+
+		<!-- AOT, LLVM and general performance -->
+		<Optimize>true</Optimize>
+		<EnableLLVM>false</EnableLLVM>
+		<RunAOTCompilation>true</RunAOTCompilation>
+		<AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+		<PublishTrimmed>true</PublishTrimmed>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\camerax\camerax.csproj" />
+	</ItemGroup>
+</Project>

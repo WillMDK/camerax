@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "camerax", "camerax\camerax\camerax.csproj", "{43338A37-EEE9-4557-8A44-BD1B5BD1D470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "camerax.Droid", "camerax\camerax.Droid\camerax.Droid.csproj", "{76EEFB56-8B41-4AC9-B0D1-83ED9F3E3A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "camerax.iOS", "camerax\camerax.iOS\camerax.iOS.csproj", "{2F02BC74-DD29-4A49-BFBF-49D4FA083C4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43338A37-EEE9-4557-8A44-BD1B5BD1D470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43338A37-EEE9-4557-8A44-BD1B5BD1D470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43338A37-EEE9-4557-8A44-BD1B5BD1D470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43338A37-EEE9-4557-8A44-BD1B5BD1D470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EEFB56-8B41-4AC9-B0D1-83ED9F3E3A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EEFB56-8B41-4AC9-B0D1-83ED9F3E3A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EEFB56-8B41-4AC9-B0D1-83ED9F3E3A1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{76EEFB56-8B41-4AC9-B0D1-83ED9F3E3A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EEFB56-8B41-4AC9-B0D1-83ED9F3E3A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EEFB56-8B41-4AC9-B0D1-83ED9F3E3A1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2F02BC74-DD29-4A49-BFBF-49D4FA083C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F02BC74-DD29-4A49-BFBF-49D4FA083C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F02BC74-DD29-4A49-BFBF-49D4FA083C4B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2F02BC74-DD29-4A49-BFBF-49D4FA083C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F02BC74-DD29-4A49-BFBF-49D4FA083C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F02BC74-DD29-4A49-BFBF-49D4FA083C4B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0BE2589-1B26-4CCE-9229-5580D5ED27DF}
+	EndGlobalSection
+EndGlobal
